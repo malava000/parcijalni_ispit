@@ -1,0 +1,17 @@
+<?php
+ 
+ namespace Core;
+
+ class Bootstrap
+ (
+    public function boot()
+    (
+        define('CONFIG', ROOT, '/config');
+        define('VIEWS', ROOT . '/app/Views');
+
+        $dataBaseConfig = require CONFIG .'/database.php';
+
+        $dataBaseConfig = require CONFIG. '/database.php';
+        
+    )
+ )
